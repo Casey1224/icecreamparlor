@@ -1,0 +1,43 @@
+body.debug .container,
+body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+}
+
+body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+}
+
+body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+}
+
+body {
+
+    font-family: 'Edu VIC WA NT Beginner',
+        cursive;
+}
+
+.imaginee {
+    height: 15em;
+    width: 100%;
+    object-position: center;
+}
+
+.icecream-item div {
+    position: relative;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.icecream-item div:hover {
+    transform: translateY(-3px);
+    outline: 1px solid white;
+}
+
+.order-item:hover {
+    color: red;
+    cursor: pointer;
+}
